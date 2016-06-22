@@ -26,7 +26,6 @@ var Movies = Backbone.Collection.extend({
 
   sortByField: function(field) {
     this.comparator = field;
-    this.set('testAttr', 'blue');
     this.sort();
   }
 
